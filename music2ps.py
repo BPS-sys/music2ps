@@ -131,6 +131,12 @@ class music():
                                     # 漢字ー＞ひら
                                     for i in self.kks.convert(word[0]):
                                         conv_hira += i['hira']
+                                    judge = False
+                                    for i in conv_hira:
+                                        if i in self.xmoji_list:
+                                            judge = True
+                                    if judge:
+                                        continue
                                     # リスト化
                                     conv_hira = [i for i in conv_hira]
                                     for i, k in enumerate(wakati_hira):
