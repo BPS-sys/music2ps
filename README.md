@@ -19,7 +19,9 @@ sample1.musicxmlは（春が来た）
 sample2.musicxmlは（茶摘み）  
 sample3.musicxmlは（さくら）
 ### 4. NEUTRINO/score/lyricsを作成し、歌詞を書いた（.txt）を入れる
-歌詞はネットで調べてコピペ
+歌詞はネットで調べてコピペ  
+特殊な読みをする場合は置き換える必要がある  
+例)景色（いろ）→いろ
 ### 5. main.pyを編集する
 ```
 mp.set_path(NEUTRINO='NEUTRINO', music='さくら.musicxml', lyrics='さくら.txt')
