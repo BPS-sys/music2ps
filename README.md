@@ -26,7 +26,7 @@ mp.set_path(NEUTRINO='NEUTRINO', music='さくら.musicxml', lyrics='さくら.t
 model = mp.load_model('wiki_model_sg_20.model', max_word=200, similar_percent=0.6)
 ```
 第1引数に自作のgensimのword2vecモデルのパスを入れると自作モデルを使った替え歌をつくれる  
-自作モデルを配置する場合はmain.pyと同一ディレクトリ内へ
+（絶対パスか相対パス）
 ### 6. main.pyを実行する（もしくはmain.ipynb）
 替え歌が再生される
 ### 7. NEUTRINO/output/（.musicxmlのファイル名）.wavを再生
