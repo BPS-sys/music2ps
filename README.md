@@ -15,7 +15,7 @@ pip install gensim
 ```
 ### 3. NEUTRINO/score/musicxmlに替え歌を作成したい（.musicxml）を入れる
 初期から入っている  
-sample1.musicxmlの中身は（春が来た）  
+sample1.musicxmlは（春が来た）  
 sample2.musicxmlは（茶摘み）  
 sample3.musicxmlは（さくら）
 ### 4. NEUTRINO/score/lyricsを作成し、歌詞を書いた（.txt）を入れる
